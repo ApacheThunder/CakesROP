@@ -122,12 +122,13 @@ int main(int argc, char **argv) {
 
 	iprintf("\n\n\n\n\n\n");
 	iprintf("   >> Cakes ROP Installer <<  \n");
+	iprintf("   >> rxTools Edition <<  \n");
 	iprintf("\n\n");
 
 	int patchfile = 0;
 	int header;
 	rawDataOffset=0;
-	char cakes[]="YS:/Cakes.dat";
+	char cakes[]="YS:/rxTools.dat";
     char custom[6][35];
 
 	aread(&header,1,4,patchfile);
